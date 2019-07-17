@@ -11,7 +11,7 @@ img_filter=img_filter.resize(size)
 #split each image into rgb
 r,g,b = base_img.split()
 R,G,B= img_filter.split()
-
+#to merge all the pictures
 im=Image.merge("RGB", (r, g, B))
 im.show()
 #im.save(1_merge.jpg)
